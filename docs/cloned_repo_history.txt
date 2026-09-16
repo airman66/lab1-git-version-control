@@ -1,0 +1,42 @@
+Репозиторий: pallets/click (https://github.com/pallets/click)
+Дата клонирования: 2026-09-16 23:37
+
+=== git log --oneline (первые 15 коммитов) ===
+6aabf09 Stable (#3851)
+7944461 Merge branch 'main' into stable
+7ecc8d7 Split out types tests. (#3850)
+b8a4486 Split out types tests.
+87f7a31 Add missing a reference for Windows and use the `kbd` role (#3829)
+00aca23 Add `Option.get_help_spec` to extract the help's left part of an hidden option (#3821)
+fa99fbd Use the `kbd` role for keyboard sequences in the docs
+271effb Add `Option.get_help_spec` to return the option's help left part
+be13b15 Document calling a command as a regular function (#3820)
+bb86cde Document calling a command as a regular function
+b024123 Add FAQ entry about tab completion in prompts (#3826)
+e5cb12b Document type auto-conversion and test `set` and `frozenset` (#3808)
+cb43e05 Add FAQ entry about tab completion in prompts
+394088a Test frozen types; Documents type conversion
+00f257b Fix race condition on `KeyboardInterrupt` in `Command.main()` (#3818)
+
+=== git shortlog -sn (топ авторов) ===
+   876	David Lord
+   593	Armin Ronacher
+   266	Rowlando13
+   184	Kevin Deldycke
+   151	Markus Unterwaditzer
+   106	dependabot-preview[bot]
+    75	Edward G
+    60	dependabot[bot]
+    45	denuoweb
+    34	Nicholas Wiles
+
+=== git log --stat (последний коммит) ===
+commit 6aabf099bfdd4c1e75fe8d0e0d4241372b988ab1
+Merge: 36baa15 7944461
+Author: Rowlando13 <67291205+Rowlando13@users.noreply.github.com>
+Date:   Sat Sep 5 18:28:42 2026 -0700
+
+    Stable (#3851)
+
+=== Всего коммитов: 3362 ===
+=== Ветки: 4 удалённых веток ===
