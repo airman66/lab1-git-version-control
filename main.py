@@ -5,7 +5,7 @@ from utils import sum_even
 
 def greet(name: str) -> str:
     """Вернуть приветствие для имени."""
-    return f"Hello, {name}!"
+    return f"Hello, {name}! Glad to see you."
 
 
 if __name__ == "__main__":
