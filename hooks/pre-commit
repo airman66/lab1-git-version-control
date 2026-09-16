@@ -1,0 +1,8 @@
+#!/bin/sh
+# Проверка кода flake8 перед коммитом (доп. задание: git hook)
+echo "pre-commit: проверка flake8..."
+python3 -m flake8 --max-line-length=100 --exclude=vendor .
+if [ $? -ne 0 ]; then
+    echo "pre-commit: найдены ошибки стиля, коммит отменён"
+    exit 1
+fi
